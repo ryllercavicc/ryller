@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+    <title>Meus objetivos do ano</title> 
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
+        <div class="conteudo">
+        <div class="botoes">
+               <button class="botao ativo">Nome do Curso Alura</button>
+            <button class="botao">Linguagem de Programação Utilizadas</button>
+               <button class="botao">Perfil Criado</button>
+            <button class="botao">Dia da Apresentação</button>
+        </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Organizando Objetivos Futuros</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Organizando Objetivos Futuros</h4>
+          <div class="contador">
+                 <div class="contador-digito">
+                <p class="contador-digito-numero" id="dias0"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+        <p class="contador-digito-numero" id="horas0"></p>
+                                   <p class="contador-digito-texto">horas</p>
+                            </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min0"></p>
+         <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="segundo0"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Html, CSS e JavaScript</h3>
+              <h4 class="aba-conteudo-titulo-secundario">Html, CSS e JavaScript</h4>
+       <div class="contador">
+                        <div class="contador-digito">
+                  <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">dias</p>
+                     </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                     <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                  <p class="contador-digito-numero" id="min1"></p>
+                <p class="contador-digito-texto">minutos</p>
+             </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="segundo1"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Criar uma Página no GitHub</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Criar uma Página no GitHub</h4>
+                    <div class="contador">
+               <div class="contador-digito">
+           <p class="contador-digito-numero" id="dias2"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                      <p class="contador-digito-numero" id="horas2"></p>
+                            <p class="contador-digito-texto">horas</p>
+               </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min2"></p>
+              <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="segundo2"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Projeto Pronto</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Projeto Pronto</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias3"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                                         <p class="contador-digito-numero" id="horas3"></p>
+                                        <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                                       <p class="contador-digito-numero" id="min3"></p>
+                                        <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                             <p class="contador-digito-numero" id="segundo3"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                  </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
+
